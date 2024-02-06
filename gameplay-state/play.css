@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'Poetsen One';
+    src: url('../assets/font/PoetsenOne-Regular.ttf');
+}
+
+:root{
+    --primary-text: #5C5B5B;
+    --background-text: #D3D3D3
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#main-screen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 44px;
+    color: var(--primary-text);
+    font-family: 'Poetsen One';
+}
+
+.cloud-top{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -1.5rem;
+    z-index: 3;
+}
+
+.cloud-top > img{
+    width: 100vw;
+}
+
+.cloud-down{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: rotate(180deg);
+    overflow: hidden;
+    bottom: -1.5rem;
+    z-index: 3;
+}
+
+.cloud-down > img{
+    width: 100vw;
+}
+
+#keranjang{
+    position: absolute;
+    bottom: 8rem;
+    left: 20rem;
+    z-index: 1;
+}
+
+.coin{
+    position: absolute;
+    top: 0px;
+    width: 4rem;
+    z-index: 1;
+}

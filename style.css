@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'Poetsen One';
+    src: url('/assets/font/PoetsenOne-Regular.ttf');
+}
+
+:root{
+    --primary-text: #5C5B5B;
+    --background-text: #D3D3D3
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+h1{
+    font-family: 'Poetsen One';
+    color: var(--primary-text);
+    padding: 53px 72px;
+    background-color: var(--background-text);
+    border-radius: 90.5px;
+    font-size: 92px;
+    opacity: 75%;
+}
+
+button{
+    border: 1px solid #5C5B5B;
+    padding: 15px 67px;
+    border-radius: 2rem;
+    font-size: 40px;
+    font-weight: 700;
+    stroke-opacity: 75%;
+}

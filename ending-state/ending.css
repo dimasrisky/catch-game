@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'Poetsen One';
+    src: url('../assets/font/PoetsenOne-Regular.ttf');
+}
+
+:root{
+    --primary-text: #5C5B5B;
+    --background-text: #D3D3D3
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > h3{
+    font-family: 'Poetsen One', 'sans-serif';
+    color: var(--primary-text);
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+#container > h1{
+    font-family: 'Poetsen One', 'sans-serif';
+    color: var(--primary-text);
+    font-size: 52px;
+    margin-bottom: 13px;
+}
+
+#container > p{
+    font-family: 'Poetsen One', 'sans-serif';
+    color: var(--primary-text);
+    font-size: 70px;
+}
+
+#container > button {
+    padding: 13.5px 41.5px;
+    font-weight: 700;
+    color: var(--primary-text);
+    font-size: 24px;
+    border-radius: 33px;
+    border: 1px solid #5C5B5B;
+    stroke-opacity: 75%;
+    margin-top: 22px;
+}
